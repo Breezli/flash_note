@@ -1,3 +1,27 @@
+> 技术栈： react、expo、react-native、ts
+
+> 前置准备：手机端下载 Expo Go 软件
+
+启动
+
+```
+pnpm install
+
+```
+
+```
+pnpm start
+
+```
+
+```
+手机登录 Expo Go 软件 输入链接/扫码
+
+```
+
+```
+终端 `R` 强制更新
+```
 
 ```
 flashNoteAI
