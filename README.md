@@ -23,8 +23,10 @@ pnpm start
 终端 `R` 强制更新
 ```
 
+
 ```
 flashNoteAI
+├─ .env
 ├─ app.json
 ├─ App.tsx
 ├─ assets
@@ -40,14 +42,32 @@ flashNoteAI
 ├─ src
 │  ├─ api
 │  │  ├─ ai.ts
-│  │  └─ mock.ts
+│  │  ├─ mock.ts
+│  │  └─ notes.ts
 │  ├─ components
-│  │  └─ InputBar.tsx
+│  │  ├─ common
+│  │  │  ├─ Button.tsx
+│  │  │  └─ Input.tsx
+│  │  ├─ notes
+│  │  │  ├─ DraggableCard.tsx
+│  │  │  ├─ NoteCard.tsx
+│  │  │  ├─ NoteDetailModal.tsx
+│  │  │  ├─ NoteInput.tsx
+│  │  │  └─ StructureEditor.tsx
+│  │  └─ SafeAreaContainer.tsx
+│  ├─ constants
+│  │  └─ Colors.ts
+│  ├─ context
+│  │  └─ NotesContext.tsx
 │  ├─ hooks
 │  ├─ screens
+│  │  ├─ HomeScreen.tsx
+│  │  ├─ NotesScreen.tsx
+│  │  ├─ OrganizeScreen.tsx
+│  │  ├─ ProfileScreen.tsx
 │  │  └─ TimelineScreen.tsx
 │  ├─ types
-│  │  └─ note.ts
+│  │  └─ index.ts
 │  └─ utils
 │     └─ note.ts
 └─ tsconfig.json
